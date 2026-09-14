@@ -1,0 +1,16 @@
+# local Postgres scratch data / dumps
+pgdata/
+*.dump
+*.sql.bak
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
