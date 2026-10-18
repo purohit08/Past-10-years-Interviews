@@ -22,6 +22,8 @@ Materials targeted at a specific company's loop.
 - **[Meta / Facebook — Data Engineer](./company-prep/meta-data-engineer/)** —
   role overview + JD study notes, the "Salesperson" [SQL set](./company-prep/meta-data-engineer/sql-practice.md)
   (6 questions), and a [Python coding warm-up](./company-prep/meta-data-engineer/python-coding.md) (4 problems).
+- **[Amazon](./company-prep/amazon/)** — the classic [matches played / won / lost](./company-prep/amazon/matches-won-lost.md)
+  problem (`UNION ALL` wide → long, the `UNION` trap, draws + points follow-up).
 
 ### 📚 Practice by topic — [`topics/`](./topics/)
 Original drills against one shared [`schema.sql`](./topics/schema.sql), each with
@@ -56,6 +58,7 @@ psql -d sqlprep -f real-interviews/emirates-nbd.sql
 
 # company SQL set
 psql -d sqlprep -f company-prep/meta-data-engineer/sql-practice.sql
+psql -d sqlprep -f company-prep/amazon/matches-won-lost.sql
 
 # python warm-up
 python3 company-prep/meta-data-engineer/python_coding.py
